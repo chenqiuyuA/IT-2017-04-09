@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!--让ie使用最新的渲染引擎-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>登录页面</title>
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/login.css">
+  <!--[if lt IE 9]>
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <script src="lib/respond/respond.min.js"></script>
+  <![endif]--> 
+</head>
+<body>
+		<div class="container text-center">
+      <div class="lo-show">
+        <div id="lo-form" class="clearfix" >
+          <h2>课程在线中心登录页面</h2>
+           <p>
+             <label for="username">用户名：</label> 
+             <input name="user-name" type="text" required="required" placeholder="用户名" id="username">
+           </p>
+           <p>
+            <label for="userPassword">密码：</label> 
+            <input type="password" name="user-password" placeholder="密码" id="userPassword">  
+           </p>
+           <input type="submit" value="登录" id='toLogin' class="redBt">
+           <a href="findPassword.html">忘记密码？</a>
+           <a href="register.html">立即注册</a>
+        </div>  
+      </div>
+    </div>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>

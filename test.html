@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>考试页面</title>
+	<link rel="stylesheet" href="css/base.css">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/test.css">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	<div class="container text-center">
+		<h2 class="title">2017年6月考试</h2>
+		<div class="tips">
+		<p>时间限制：<span>2小时</span></p>
+		<p>考试时间已过去：<span id='lossTime'>0秒</span></p>
+		<div class="progress">
+		  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0;" id="progress-test-bar"></div>
+		</div>
+		</div>
+		<div class="containerBox">
+			<h3>一、选择题</h3>
+			<div id="question1Box"></div>
+			
+			<h3>二、简答题</h3>
+			<div id="question2Box"></div>
+		</div>
+		<div class="clearfix">
+			<h3>你的答案:</h3>
+			<div id="answerShow">
+				<h3>一、</h3>
+				<div id="answer1"></div>
+				<h3>二、</h3>
+				<div id="answer2"></div>
+			</div>
+		</div>
+		<button id="toSendAnswer">提交试卷</button>
+	</div>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="js/test.js"></script>
+  </body>
+</html>

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/base.css">
+		    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		    <!--[if lt IE 9]>
+		      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		    <![endif]-->
+    	<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/teach.css" />
+		<style>
+			.houtai_top{
+				height: 50px;
+				line-height: 50px;
+				text-align: center;
+				font-size: 22px;
+			}
+			a{
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	
+	<body>				
+		<div class="houtai_top">后台管理中心</div>
+		<!--后台管理界面-->
+		<div class="teach">
+			<div class="teach-nav col-md-2 col-sm-2 col-xs-2">
+				<ul  class="j-teach-nav">
+					<li class="hWork symbol"><a>用户管理</a></li>
+					<li class="hWork"><a>作业管理</a></li>
+					<li class="hWork"><a>课件管理</a></li>
+					<li class="hWork"><a>视频管理</a></li>
+					<li class="hWork"><a>源码管理</a></li>
+					<li class="hWork"><a>刷题管理</a></li>
+					<li class="hWork"><a>考试管理</a></li>
+					<li class="hWork"><a>教师队伍</a></li>
+				</ul>
+			</div>
+			
+			<div class="bb" style="height: 600px;">
+				<!--用户管理-->			
+				<div class="manage detail show col-md-10 col-sm-10 col-xs-10">
+					<div class="send">
+						<button type="button" class="btn btn-primary btn-lg">上传资料</button>
+					</div>				
+					<div class="table-responsive">
+						<table class="table">
+							<caption></caption>
+							<thead>
+								<tr>
+									<th>用户学号</th>
+									<th>姓名</th>	
+									<th>操作</th>	
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>2014874205</td>
+									<td>陈秋宇</td>
+									<td><a href="">删除</a></td>
+								</tr>																				
+							</tbody>
+						</table>
+					</div>
+					<nav aria-label="..." class="fenye">
+					  	<ul class="pager">
+					    	<li><a href="#">上一页</a></li>
+					    	<span value="now">1</span>/<span value="all">3</span>
+					    	<li><a href="#">下一页</a></li>
+					  	</ul>
+					</nav>
+				</div>
+						
+				<!--作业管理-->			
+				<div class="homework detail show col-md-10 col-sm-10 col-xs-10">
+					<div class="send">
+						<button type="button" class="btn btn-primary btn-lg">上传作业</button>
+					</div>				
+					<div class="table-responsive">
+						<table class="table">
+							<caption></caption>
+							<thead>
+								<tr>
+									<th>作业标题</th>
+									<th>上传时间</th>
+									<th>批改情况</th>
+									<th>操作</th>								
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>作业1</td>
+									<td>2016-12-29</td>
+									<td>已批改</td>
+									<td><a href="">作业详情</a>&nbsp;|&nbsp;<a href="">批改</a>&nbsp;|&nbsp;<a href="">删除</a></td>
+								</tr>
+								<tr>
+									<td>作业2</td>
+									<td>2017-1-2</td>
+									<td>未批改</td>
+									<td><a href="">作业详情</a>&nbsp;|&nbsp;<a href="">批改</a>&nbsp;|&nbsp;<a href="">删除</a></td>
+								</tr>												
+							</tbody>
+						</table>
+					</div>
+					<nav aria-label="..." class="fenye">
+					  	<ul class="pager">
+					    	<li><a href="#">上一页</a></li>
+					    	<span value="now">1</span>/<span value="all">3</span>
+					    	<li><a href="#">下一页</a></li>
+					  	</ul>
+					</nav>
+				</div>
+				
+				<!--课件管理-->
+				<div class="kejian detail col-md-10 col-sm-10 col-xs-10">
+					<div class="send">
+						<button type="button" class="btn btn-primary btn-lg">上传课件</button>
+					</div>				
+					<div class="table-responsive">
+						<table class="table">
+							<caption></caption>
+							<thead>
+								<tr>
+									<th>课件标题</th>
+									<th>上传时间</th>
+									<th>下载量</th>
+									<th>操作</th>								
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>课件1</td>
+									<td>2016-12-29</td>
+									<td>5</td>
+									<td><a href="">课件详情</a>&nbsp;|&nbsp;<a href="">删除</a></td>
+								</tr>
+								<tr>
+									<td>课件2</td>
+									<td>2016-12-29</td>
+									<td>12</td>
+									<td><a href="">课件详情</a>&nbsp;|&nbsp;<a href="">删除</a></td>
+								</tr>											
+							</tbody>
+						</table>
+					</div>
+					<nav aria-label="..." class="fenye">
+					  	<ul class="pager">
+					    	<li><a href="#">上一页</a></li>
+					    	<span value="now">1</span>/<span value="all">3</span>
+					    	<li><a href="#">下一页</a></li>
+					  	</ul>
+					</nav>
+				</div>
+			
+				<!--视频管理-->
+				<div class="video detail col-md-10 col-sm-10 col-xs-10">
+					<div class="send">
+						<button type="button" class="btn btn-primary btn-lg">上传视频</button>
+					</div>				
+					<div class="table-responsive">
+						<table class="table">
+							<caption></caption>
+							<thead>
+								<tr>
+									<th>视频标题</th>
+									<th>上传时间</th>
+									<th>下载量</th>
+									<th>操作</th>								
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>视频1</td>
+									<td>2016-12-29</td>
+									<td>5</td>
+									<td><a href="">视频详情</a>&nbsp;|&nbsp;<a href="">删除</a></td>
+								</tr>
+								<tr>
+									<td>视频2</td>
+									<td>2016-12-29</td>
+									<td>5</td>
+									<td><a href="">视频详情</a>&nbsp;|&nbsp;<a href="">删除</a></td>
+								</tr>											
+							</tbody>
+						</table>
+					</div>
+					<nav aria-label="..." class="fenye">
+					  	<ul class="pager">
+					    	<li><a href="#">上一页</a></li>
+					    	<span value="now">1</span>/<span value="all">3</span>
+					    	<li><a href="#">下一页</a></li>
+					  	</ul>
+					</nav>
+				</div>
+				
+				<!--源码管理-->
+				<div class="coding detail col-md-10 col-sm-10 col-xs-10">
+					<div class="send">
+						<button type="button" class="btn btn-primary btn-lg">上传源码</button>
+					</div>				
+					<div class="table-responsive">
+						<table class="table">
+							<caption></caption>
+							<thead>
+								<tr>
+									<th>源码标题</th>
+									<th>上传时间</th>
+									<th>下载量</th>
+									<th>操作</th>								
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>源码1</td>
+									<td>2016-12-29</td>
+									<td>5</td>
+									<td><a href="">源码详情</a>&nbsp;|&nbsp;<a href="">删除</a></td>
+								</tr>
+								<tr>
+									<td>源码2</td>
+									<td>2016-12-29</td>
+									<td>5</td>
+									<td><a href="">源码详情</a>&nbsp;|&nbsp;<a href="">删除</a></td>
+								</tr>											
+							</tbody>
+						</table>
+					</div>
+					<nav aria-label="..." class="fenye">
+					  	<ul class="pager">
+					    	<li><a href="#">上一页</a></li>
+					    	<span value="now">1</span>/<span value="all">3</span>
+					    	<li><a href="#">下一页</a></li>
+					  	</ul>
+					</nav>			
+				</div>
+				
+				<!--刷题管理-->
+				<div class="coding detail col-md-10 col-sm-10 col-xs-10">
+					<div class="send">
+						<button type="button" class="btn btn-primary btn-lg">上传题目</button>
+					</div>				
+					<div class="table-responsive">
+						<table class="table">
+							<caption></caption>
+							<thead>
+								<tr>
+									<th>标题</th>
+									<th>上传时间</th>
+									<th>刷题次数</th>
+									<th>操作</th>								
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>套题1</td>
+									<td>2016-12-29</td>
+									<td>120</td>
+									<td><a href="">题目详情</a>&nbsp;|&nbsp;<a href="">删除</a></td>
+								</tr>
+								<tr>
+									<td>套题2</td>
+									<td>2016-12-29</td>
+									<td>120</td>
+									<td><a href="">题目详情</a>&nbsp;|&nbsp;<a href="">删除</a></td>
+								</tr>											
+							</tbody>
+						</table>
+					</div>
+					<nav aria-label="..." class="fenye">
+					  	<ul class="pager">
+					    	<li><a href="#">上一页</a></li>
+					    	<span value="now">1</span>/<span value="all">3</span>
+					    	<li><a href="#">下一页</a></li>
+					  	</ul>
+					</nav>
+				</div>
+			
+				<!--考试管理-->
+				<div class="coding detail col-md-10 col-sm-10 col-xs-10">
+					<div class="send">
+						<button type="button" class="btn btn-primary btn-lg">上传试题</button>
+					</div>				
+					<div class="table-responsive">
+						<table class="table">
+							<caption></caption>
+							<thead>
+								<tr>
+									<th>试题</th>
+									<th>考试时间</th>
+									<th>应考人数/实考人数</th>
+									<th>操作</th>								
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>试题1</td>
+									<td>2016-12-29 09:30</td>
+									<td>53/50</td>
+									<td><a href="">试题详情</a>&nbsp;|&nbsp;<a href="">查看考试情况</a>&nbsp;|&nbsp;<a href="">删除</a></td>
+								</tr>
+								<tr>
+									<td>试题2</td>
+									<td>2016-12-29 09:30</td>
+									<td>53/50</td>
+									<td><a href="">试题详情</a>&nbsp;|&nbsp;<a href="">查看考试情况</a>&nbsp;|&nbsp;<a href="">删除</a></td>
+								</tr>											
+							</tbody>
+						</table>
+					</div>
+					<nav aria-label="..." class="fenye">
+					  	<ul class="pager">
+					    	<li><a href="#">上一页</a></li>
+					    	<span value="now">1</span>/<span value="all">3</span>
+					    	<li><a href="#">下一页</a></li>
+					  	</ul>
+					</nav>
+				</div>
+			
+				<!--教师队伍-->
+				<div class="coding detail col-md-10 col-sm-10 col-xs-10">
+					<div class="send">
+						<button type="button" class="btn btn-primary btn-lg">添加教师</button>
+					</div>				
+					<div class="table-responsive">
+						<table class="table">
+							<caption></caption>
+							<thead>
+								<tr>
+									<th>教师</th>
+									<th>职称</th>
+									<th>特长课程</th>
+									<th>操作</th>								
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>陈教师</td>
+									<td>教授</td>
+									<td>JAVA</td>
+									<td><a href="">删除</a></td>
+								</tr>
+								<tr>
+									<td>陈教师</td>
+									<td>教授</td>
+									<td>JAVA</td>
+									<td><a href="">删除</a></td>
+								</tr>											
+							</tbody>
+						</table>
+					</div>
+					<nav aria-label="..." class="fenye">
+					  	<ul class="pager">
+					    	<li><a href="#">上一页</a></li>
+					    	<span value="now">1</span>/<span value="all">3</span>
+					    	<li><a href="#">下一页</a></li>
+					  	</ul>
+					</nav>
+				</div>
+							
+			</div>
+		</div>
+		
+		
+	<script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+		<script src="js/jiaoxue.js"></script>	
+	</body>
+</html>

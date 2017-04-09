@@ -1,0 +1,137 @@
+body {
+	background: url(../img/bg2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.lo-show {
+	margin: 0 auto;
+	padding-top: 8%;
+}
+
+.lo-show h2 {
+	font-size: 26px;
+	color: #b31800;
+}
+
+#lo-form {
+	margin: 0 auto;
+	width: 450px;
+	padding: 40px 30px;
+	background-color: rgba(255, 255, 255, 0.4);
+	border-radius: 10px;
+}
+
+#lo-form a {
+	float: right;
+	padding-top: 20px;
+	color: rgb(27, 102, 199);
+}
+
+#lo-form a:hover {
+	text-decoration: underline;
+}
+
+#lo-form p {
+	margin: 20px 0;
+	border: 1px solid #e0e0e0;
+	border-radius: 1px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+#lo-form p:hover {
+	border: 1px solid #81b4eb;
+}
+
+#lo-form input {
+	width: 292px;
+	padding: 3px 4px;
+	font-size: 14px;
+	background-color: transparent;
+	font-weight: 600;
+}
+
+#lo-form .redBt {
+	background-color: #b31800;
+	color: #fff;
+	width: 388px;
+}
+
+::-webkit-input-placeholder {
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.7);
+	font-weight: 400;
+}
+
+:-moz-placeholder {
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.7);
+	font-weight: 400;
+}
+
+::-moz-placeholder {
+
+	/* Mozilla Firefox 19+ */
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.7);
+	font-weight: 400;
+}
+
+:-ms-input-placeholder {
+
+	/* Internet Explorer 10+ */
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.7);
+	font-weight: 400;
+}
+
+#identifyingCodeBt {
+	padding: 3px;
+	background-color: #81b4eb;
+	color: #fff;
+	border-radius: 1px;
+}
+
+#lo-form #identifyingCode {
+	width: 150px;
+}
+
+#lo-form p .sexBt {
+	width: 120px;
+}
+
+.sexContainer {
+	font-weight: 600;
+}
+
+/* 小屏幕（平板，小于等于 768px） */
+@media (max-width:768px) {
+	.lo-show h2 {
+		font-size: 16px;
+	}
+
+	#lo-form {
+		margin: 0 auto;
+		width: 300px;
+		padding: 30px;
+	}
+
+	#lo-form a {
+		padding-top: 20px;
+	}
+
+	#lo-form p {
+		margin-top: 10px;
+	}
+
+	#lo-form input {
+		width: 150px;
+		padding: 3px;
+		font-size: 15px;
+	}
+
+	#lo-form .redBt {
+		width: 158px;
+	}
+
+}

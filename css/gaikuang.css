@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+		body{
+				background-color: #F5F5F5;
+			}
+			.gaikuang{
+				height: 800px;
+				background-color: #f4efeb;
+			}
+			.gaikuang h3{
+				text-align: center;
+				font-weight: 600;
+			}
+			.gaikuang p{
+				text-indent: 30px;
+				font-size: 16px;
+				width: 70%;
+				margin: 0 auto;
+			}
+			/*.footer{
+				width: 100%;
+				height: 100px;
+				background-color: rgba(227,234,235,0.8);
+			}
+			.foot{
+				height: 100px;
+				background-color: none;
+				text-align: center;
+				line-height: 20px;
+			}*/
+			/*使自动换行*/
+			/*.gaikuang pre{
+				text-indent: 2em;				
+				white-space: pre-wrap;
+				word-wrap: break-word;
+			}*/
+			

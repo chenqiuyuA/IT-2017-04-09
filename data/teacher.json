@@ -1,0 +1,29 @@
+{
+		"teacher":[
+			{
+				"TName":"红艳艳",
+				"TLevel":"教授",
+				"TInterested":"数据挖掘",
+				"TPicturePath":"img/teacher.png",
+				"TAbout":"关于"			
+			},{
+				"TName":"梁明明",
+				"TLevel":"优秀教师",
+				"TInterested":"前端设计",
+				"TPicturePath":"img/teacher.png",
+				"TAbout":"关于"
+			},{
+				"TName":"红艳艳",
+				"TLevel":"A",
+				"TInterested":"数据挖掘",
+				"TPicturePath":"img/teacher.png",
+				"TAbout":"关于"
+			},{
+				"TName":"红艳艳",
+				"TLevel":"A",
+				"TInterested":"数据挖掘",
+				"TPicturePath":"img/teacher.png",
+				"TAbout":"关于"
+			}
+		]
+}

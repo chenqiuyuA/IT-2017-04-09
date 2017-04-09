@@ -1,0 +1,38 @@
+/*
+* @Author: mingming
+* @Date:   2017-03-23 11:21:47
+* @Last Modified by:   mingming
+* @Last Modified time: 2017-04-04 14:11:22
+*/
+h3 {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e0e0e0;
+	margin-top: 53px;
+}
+
+.teacherBox .leftBox {
+	float: left;
+}
+
+.teacherBox .rightBox {
+	float: right;
+	margin: 10px;
+}
+
+.teacherBox .leftBox img {
+	box-shadow: 5px 5px 2px #888888;
+	margin: 6px 12px 6px 0;
+}
+
+span {
+	font-weight: 600;
+}
+
+#about {
+	text-indent: 2em;
+}
+
+.teacherBox {
+	padding: 5px;
+	border-bottom: 1px solid #e0e0e0;
+}

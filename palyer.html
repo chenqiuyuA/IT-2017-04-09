@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>视频播放</title>
+	<link rel="stylesheet" href="css/base.css">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/palyer.css">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	<div class="   text-center">
+		<div id="tipsBox" class="clearfix">
+			<span class='glyphicon glyphicon-arrow-left' id='goBack'></span><p>HTML结构</p>
+		</div>
+		<div class="containerBox">
+			<div class="video">
+				<video  height='600' controls="controls" id='js-videoBox' autoplay="autoplay">
+					<source src="./data/2.1.3 HTML结构.mp4" type="video/ogg">
+					<source src="./data/2.2.1 XHTML结构.ogg" type="video/ogg">
+						    您的浏览器不支持video标签,请及时升级浏览器！
+				</video>
+			</div>
+			<div class="commentBox container">
+				<h3 class="title">评论</h3>
+				<div class="clearfix row">
+					<div id="nickname" class="usernames"></div>
+					<textarea name="comment" id="usercomment"></textarea>
+				</div>
+				<div class="clearfix">
+					<button id="commentBt">评论</button>
+				</div>
+				
+			</div>
+			<div class="commentShow container">
+				<div class="oneComment">
+				<p>瓦尔阿</p>
+				<span>课程讲的很好啊，，怎么还那么多人在挑剔呢</span>
+				<p class="time"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="js/player.js"></script>
+  </body>
+</html>

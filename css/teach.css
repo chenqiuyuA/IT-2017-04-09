@@ -1,0 +1,85 @@
+@charset "utf-8";
+			.teach{
+				height: 600px;
+				background-color: #F5F5F5;
+				position: relative;
+			}
+			.teach-nav{
+				height: auto;
+				left: -14px;				
+				float: left;
+			}		
+			.teach-nav li{
+				height: 50px;
+				border-bottom: 1px solid #eee;
+				text-align: center;
+				line-height: 50px;
+				font-size: 18px;
+				background-color: lightsteelblue;
+				cursor: pointer;
+				list-style: none;
+			}
+			.teach .symbol{
+				background-color: papayawhip;
+				font-weight: 600;
+				border-bottom: 2px solid coral;
+				border-right: 2px solid coral;			
+			}			
+			.detail{
+				background-color: #f4efeb;	
+				display: none;	
+			}
+			.homework ul,.kejian ul,.video ul,.coding ul{
+				position: absolute;
+				top: 20px;
+				left: 20px;
+				width: 80%;
+			}
+			.kejian li,.video li,.coding li{
+				height: 50px;
+				line-height: 50px;
+				border-bottom: 1px solid #ccc;
+			}	
+			.teach .kj{
+				font-size: 18px;
+			}
+			.teach .sender{
+				margin-left: 10px;
+				font-size: 14px;
+				color: #9D9D9D;
+			}
+			.teach .kejian-data{
+				font-size: 10px;
+				margin-left: 10px;
+				color: #9D9D9D;
+			}
+			.teach .btn-primary{
+				margin-top: 10px;
+				float: right;
+				margin-right: 20px;
+			}
+			.teach .glyphicon-download-alt{
+				float: right;
+				font-size: 24px;
+				color: green;
+				text-align: center;
+				margin: 15px 10px 0 0;
+			}
+			.teach .glyphicon-download-alt:hover{
+				color: orangered
+			}
+			.teach .pager{
+				position: absolute;
+				height: 80px;
+				top: 500px;
+			}
+			.teach .homework .pager ul{
+				line-height: 50px;
+				/*top: 500px;*/
+			}
+			.teach .homework .pager li a{
+				padding: 14px 14px;
+			}
+			.teach .show{
+				display: block;
+			}

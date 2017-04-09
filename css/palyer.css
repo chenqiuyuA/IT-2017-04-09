@@ -1,0 +1,114 @@
+/*
+* @Author: mingming
+* @Date:   2017-03-20 11:08:22
+* @Last Modified by:   mingming
+* @Last Modified time: 2017-04-04 14:11:14
+*/
+.containerBox {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.video {
+	background-color: #000;
+}
+
+#js-videoBox {
+	cursor: pointer;
+}
+
+#tipsBox {
+	height: 60px;
+	background-color: #14191e;
+	width: 100%;
+	line-height: 60px;
+	font-size: 18px;
+	color: #fff;
+}
+
+#tipsBox p {
+	display: inline-block;
+}
+
+#tipsBox span {
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 20px;
+	color: #363c40;
+}
+
+#tipsBox span:hover {
+	cursor: pointer;
+	background: #363c40;
+	color: #fff;
+}
+
+.containerBox .title {
+	font-size: 25px;
+	padding: 20px 0;
+	border-bottom: 2px solid #e0e0e0;
+}
+
+.usernames p {
+	float: left;
+	font-weight: 600;
+	margin-right: 5px;
+}
+
+.oneComment span {
+	padding-left: 40px;
+}
+
+.oneComment {
+	text-align: left;
+	border-bottom: 1px solid #e0e0e0;
+	padding: 8px;
+}
+
+.oneComment p {
+	font-weight: 600;
+	margin-right: 5px;
+}
+
+.commentBox {
+	border-bottom: 1px solid #e0e0e0;
+	padding: 10px 0px 20px 0px;
+}
+
+.commentBox textarea {
+	border: 1px solid #d0d0d0;
+}
+
+#usercomment {
+	width: 90%;
+	height: 100px;
+	padding: 10px;
+	text-indent: 2em;
+	border-radius: 10px;
+	float: left;
+}
+
+#commentBt {
+	padding: 5px 20px;
+	color: #fff;
+	background-color: #b31800;
+	float: right;
+	border-radius: 3px;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+
+.commentShow {
+	margin-top: 10px;
+}
+
+.commentShow .usernames {
+	text-align: left;
+}
+
+.oneComment .time {
+	float: right;
+	font-weight: 400;
+	font-size: 12px;
+}

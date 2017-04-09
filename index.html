@@ -1,0 +1,456 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="css/base.css">
+		    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		    <!--[if lt IE 9]>
+		      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		    <![endif]-->
+    	<link rel="stylesheet" href="css/index.css" />
+
+	</head>
+	<body>					
+		<div class="top visible-sm visible-md visible-lg">
+			<img src="img/top2.png" width="100%" height="165px" />
+			<div class="word">
+				<img src="img/top-word.png" width="350px" height="100px"/>
+			</div>
+			<div class="in">
+				<a href="login.html">登录</a>
+				<a href="register.html">注册</a>
+			</div>
+		</div>
+		
+		<!--导航栏（大屏）-->
+		<nav class="navgar navgar-default">
+		  	<div class="nav-top">				  	
+		  		<div class="navgar-header">			      
+			      <a class="navgar-brand">Java</a>
+			    </div>
+				    
+			    <div class="navgar-collapse">
+			      <ul class="nav navgar-nav">		
+			      	<li><a href="index.html" class="nav1">首页</a></li>
+			        <li><a href="gaikuang.html" class="nav1">课程概况</a></li>
+			        <li class="dropdown">
+			          <a href="#" class="nav1">教学资源 </a>
+			        </li>
+			        <li><a href="teacher.html" class="nav1">教师队伍 </a></li>
+			        <li class="dropdown">
+			          <a href="#" class="nav1">在线课程</a>			         
+			        </li>
+			        <li><a href="tuozhan.html" class="nav1">拓展资源</a></li>
+			      </ul>			            
+			    </div>
+			</div>			  			
+		  	<div class="nav-big">
+		  		<ul>
+		  			<li></li>
+		  			<li></li>
+		  			<li class="j-teach-nav">
+		  				<a href="jiaoxue.html?tag=0">作业专区</a>
+		  				<a href="jiaoxue.html?tag=1">课件专区</a>
+		  				<a href="jiaoxue.html?tag=2">视频专区</a>
+		  				<a href="jiaoxue.html?tag=3">源码专区</a>
+		  			</li>
+		  			<li></li>
+		  			<li>
+		  				<a href="exercise.html">刷题助手</a>
+		  				<a href="test.html">考试中心</a>
+		  			</li>
+		  			<li></li>
+		  		</ul>
+		  	</div>		    
+		</nav>
+					
+		<!--导航栏（小屏）-->
+		<nav class="navbar navbar-default navsar">
+			<div class="container-fluid">
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="#">JAVA</a>
+			    </div>			
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			        <li class="li-one"><a href="#" class="li-one-a">首页 <span class="sr-only">(current)</span></a></li>
+			        <li class="li-one"><a href="#" class="li-one-a">课程概况</a></li>
+			        <li class="dropdown li-one">
+			          <a href="#" class="dropdown-toggle li-one-a" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">教学资源 <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#">作业专区</a></li>
+			            <li><a href="#">课件专区</a></li>
+			            <li><a href="#">视频专区</a></li>
+			            <li><a href="#">源码专区</a></li>
+			          </ul>
+			        </li>
+			        <li class="dropdown li-one">
+			          <a href="#" class="dropdown-toggle li-one-a" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">在线课程 <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="exercise.html">刷题助手</a></li>
+			            <li><a href="#">考试中心</a></li>
+			          </ul>
+			        </li>
+			        <li class="li-one"><a href="#" class="li-one-a">拓展资源</a></li>
+			      </ul>		      			      
+			    </div>
+			</div>
+		</nav>
+			
+		<!--轮播图-->
+	    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+			  </ol>			
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+			    <div class="item active" data-image-xs="img/bo11.png" style="background-image: url(img/bo11.png);">
+			      <!--<img src="img/bo11.png" width="1500px" height="300px" alt="...">-->		      
+			    </div>
+			    <div class="item" data-image-xs="img/bo22.png" style="background-image: url(img/bo22.png);">
+			      <!--<img src="img/bo22.png" width="1500px" height="300px" alt="...">-->			      
+			    </div>
+			    <div class="item" data-image-xs="img/bo33.jpg" style="background-image: url(img/bo33.jpg);">
+			      <!--<img src="img/bo33.jpg" width="1500px" height="300px" alt="...">-->		      
+			    </div>
+			    <div class="item" data-image-xs="img/bo44.png" style="background-image: url(img/bo44.png);">
+			      <!--<img src="img/bo44.png" width="1500px" height="300px" alt="...">-->		      
+			    </div>			    		    
+			  </div>
+			
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+		</div>
+	    	  	    	
+	    <!--正文-->
+	    <div class="partA w1">
+    		<div class="part1 col-md-4 col-sm-4 col-xs-12">
+    			<div class="partTop">
+    				<div class="title"><span></span>晚间新闻</div>
+    			</div>
+    			<div class="father" id="scroll">
+    				<div class="partInA">
+	    				<!--<div class="detailA">
+	    					<div class="detailA-top">
+	    						<div class="itNews">IT新闻</div>
+	    						<div class="date" value="date">2017-03-10</div>
+	    					</div>
+	    					<div class="detailA-body">
+	    						<div class="img">
+	    							<img src="img/a1.jpg"/>
+	    						</div>
+	    						<div class="word">
+	    							<h5>李彦宏：分水岭时代已到来</h5>
+	    							<p>在2月8日举办的中国企业家论坛第十七届年会开幕论坛上，李彦宏作为大会...<a href="">[详情]</a></p>
+	    						</div>
+	    					</div>
+	    				</div>-->
+	    				
+	    				<!--<div class="detailA">
+	    					<div class="detailA-top">
+	    						<div class="itNews">IT新闻</div>
+	    						<div class="date" value="date">2017-03-11</div>
+	    					</div>
+	    					<div class="detailA-body">
+	    						<div class="img">
+	    							<img src="img/a1.jpg"/>
+	    						</div>
+	    						<div class="word">
+	    							<h5>李彦宏：分水岭时代已到来</h5>
+	    							<p>在2月8日举办的中国企业家论坛第十七届年会开幕论坛上，李彦宏作为大会新任理事...<a href="">[详情]</a></p>
+	    						</div>
+	    					</div>
+	    				</div>
+	    				<div class="detailA">
+	    					<div class="detailA-top">
+	    						<div class="itNews">IT新闻</div>
+	    						<div class="date" value="date">2017-03-12</div>
+	    					</div>
+	    					<div class="detailA-body">
+	    						<div class="img">
+	    							<img src="img/a1.jpg"/>
+	    						</div>
+	    						<div class="word">
+	    							<h5>李彦宏：分水岭时代已到来</h5>
+	    							<p>在2月8日举办的中国企业家论坛第十七届年会开幕论坛上，李彦宏作为大会新任理事...<a href="">[详情]</a></p>
+	    						</div>
+	    					</div>
+	    				</div>
+	    				<div class="detailA">
+	    					<div class="detailA-top">
+	    						<div class="itNews">IT新闻</div>
+	    						<div class="date" value="date">2017-03-13</div>
+	    					</div>
+	    					<div class="detailA-body">
+	    						<div class="img">
+	    							<img src="img/a1.jpg"/>
+	    						</div>
+	    						<div class="word">
+	    							<h5>李彦宏：分水岭时代已到来</h5>
+	    							<p>在2月8日举办的中国企业家论坛第十七届年会开幕论坛上，李彦宏作为大会新任理事...<a href="">[详情]</a></p>
+	    						</div>
+	    					</div>
+	    				</div>
+    					<div class="detailA">
+	    					<div class="detailA-top">
+	    						<div class="itNews">IT新闻</div>
+	    						<div class="date" value="date">2017-03-10</div>
+	    					</div>
+	    					<div class="detailA-body">
+	    						<div class="img">
+	    							<img src="img/a1.jpg"/>
+	    						</div>
+	    						<div class="word">
+	    							<h5>李彦宏：分水岭时代已到来</h5>
+	    							<p>在2月8日举办的中国企业家论坛第十七届年会开幕论坛上，李彦宏作为大会...<a href="">[详情]</a></p>
+	    						</div>
+	    					</div>
+	    				</div>
+    					<div class="detailA">
+	    					<div class="detailA-top">
+	    						<div class="itNews">IT新闻</div>
+	    						<div class="date" value="date">2017-03-11</div>
+	    					</div>
+	    					<div class="detailA-body">
+	    						<div class="img">
+	    							<img src="img/a1.jpg"/>
+	    						</div>
+	    						<div class="word">
+	    							<h5>李彦宏：分水岭时代已到来</h5>
+	    							<p>在2月8日举办的中国企业家论坛第十七届年会开幕论坛上，李彦宏作为大会...<a href="">[详情]</a></p>
+	    						</div>
+	    					</div>
+	    				</div>
+    					<div class="detailA">
+	    					<div class="detailA-top">
+	    						<div class="itNews">IT新闻</div>
+	    						<div class="date" value="date">2017-03-12</div>
+	    					</div>
+	    					<div class="detailA-body">
+	    						<div class="img">
+	    							<img src="img/a1.jpg"/>
+	    						</div>
+	    						<div class="word">
+	    							<h5>李彦宏：分水岭时代已到来</h5>
+	    							<p>在2月8日举办的中国企业家论坛第十七届年会开幕论坛上，李彦宏作为大会...<a href="">[详情]</a></p>
+	    						</div>
+	    					</div>
+	    				</div>
+    					<div class="detailA">
+	    					<div class="detailA-top">
+	    						<div class="itNews">IT新闻</div>
+	    						<div class="date" value="date">2017-03-13</div>
+	    					</div>
+	    					<div class="detailA-body">
+	    						<div class="img">
+	    							<img src="img/a1.jpg"/>
+	    						</div>
+	    						<div class="word">
+	    							<h5>李彦宏：分水岭时代已到来</h5>
+	    							<p>在2月8日举办的中国企业家论坛第十七届年会开幕论坛上，李彦宏作为大会...<a href="">[详情]</a></p>
+	    						</div>
+	    					</div>
+	    				</div>  					-->
+    				</div>  			
+    			</div> <!--father-->
+    		</div>
+    		<div class="part2 col-md-4 col-sm-4 col-xs-12">
+    			<div class="partTop">
+    				<div class="title"><span></span>教学资源</div>
+    			</div>
+    			<div class="partInA">
+    				<!--<ul>
+    					<li><a href="">教学资源1</a><span>2017-3-11</span></li>
+    					<li><a href="">教学资源2</a><span>2017-3-11</span></li>
+    					<li><a href="">教学资源3</a><span>2017-3-11</span></li>
+    					<li><a href="">教学资源4</a><span>2017-3-11</span></li>
+    					<li><a href="">教学资源5</a><span>2017-3-11</span></li>
+    					<li><a href="">教学资源6</a><span>2017-3-11</span></li>
+    					<li><a href="">教学资源7</a><span>2017-3-11</span></li>
+    					<li><a href="">教学资源8</a><span>2017-3-11</span></li>
+    					<li><a href="">教学资源9</a><span>2017-3-11</span></li>
+    					<li><a href="">教学资源10</a><span>2017-3-11</span></li>
+    					<li><a href="">教学资源11</a><span>2017-3-11</span></li>
+    					<li><a href="">教学资源12</a><span>2017-3-11</span></li>
+    				</ul>--> 				
+    			</div>
+    		</div>
+    		<div class="part3 col-md-4 col-sm-4 col-xs-12">
+    			<div class="partTop">
+    				<div class="title"><span></span>Java世界</div>
+    			</div>
+    			<div class="partInA">
+    				<!--<div class="detailA">
+    					<div class="detailA-top">
+    						<div class="itNews">Java动态</div>
+    						<div class="date" value="date">2017-03-10</div>
+    					</div>
+    					<div class="detailA-body">
+    						<div class="img">
+    							<img src="img/a2.jpg" width="108px" height="75px"/>
+    						</div>
+    						<div class="word">
+    							<h5>李彦宏：分水岭时代已到来</h5>
+    							<p>在2月8日举办的中国企业家论坛第十七届年会开幕论坛上，李彦宏作为大会新任理事...<a href="">[详情]</a></p>
+    						</div>
+    					</div>
+    				</div>
+    				<div class="detailA">
+    					<div class="detailA-top">
+    						<div class="itNews">Java动态</div>
+    						<div class="date" value="date">2017-03-10</div>
+    					</div>
+    					<div class="detailA-body">
+    						<div class="img">
+    							<img src="img/a2.jpg" width="108px" height="75px"/>
+    						</div>
+    						<div class="word">
+    							<h5>李彦宏：分水岭时代已到来</h5>
+    							<p>在2月8日举办的中国企业家论坛第十七届年会开幕论坛上，李彦宏作为大会新任理事...<a href="">[详情]</a></p>
+    						</div>
+    					</div>
+    				</div>
+    				<div class="detailA">
+    					<div class="detailA-top">
+    						<div class="itNews">Java动态</div>
+    						<div class="date" value="date">2017-03-10</div>
+    					</div>
+    					<div class="detailA-body">
+    						<div class="img">
+    							<img src="img/a2.jpg" width="108px" height="75px"/>
+    						</div>
+    						<div class="word">
+    							<h5>李彦宏：分水岭时代已到来</h5>
+    							<p>在2月8日举办的中国企业家论坛第十七届年会开幕论坛上，李彦宏作为大会新任理事...<a href="">[详情]</a></p>
+    						</div>
+    					</div>
+    				</div>
+    				<div class="detailA">
+    					<div class="detailA-top">
+    						<div class="itNews">Java动态</div>
+    						<div class="date" value="date">2017-03-10</div>
+    					</div>
+    					<div class="detailA-body">
+    						<div class="img">
+    							<img src="img/a2.jpg" width="108px" height="75px"/>
+    						</div>
+    						<div class="word">
+    							<h5>李彦宏：分水岭时代已到来</h5>
+    							<p>在2月8日举办的中国企业家论坛第十七届年会开幕论坛上，李彦宏作为大会新任理事...<a href="">[详情]</a></p>
+    						</div>
+    					</div>
+    				</div>-->
+    			</div>
+    		</div>
+	    </div>
+						
+		<!--正文B-->
+		<div class="partB">
+			<div class="partBin w1">
+				<h3 style="margin-bottom: 20px;">Java社会需求</h3>
+				<div class="partB-1 col-md-4 col-sm-5 col-xs-12">
+					<a href="https://wenku.baidu.com/view/c59ef49cb9d528ea81c779e8.html">
+						<div class="img"></div>
+					</a>					
+				</div>
+				<div class="partB-2 col-md-4 col-sm-3 col-xs-12">
+					<ul>						
+						<li class="k1 col-md-6 col-sm-6 col-xs-6">
+							<div class="bg"></div>
+							<div class="mark1">
+								<a href="gaikuang.html">[课程概况]</a>
+							</div>
+						</li>						
+						<li class="k2 col-md-6 col-sm-6 col-xs-6">
+							<div class="bg"></div>
+							<div class="mark1">
+								<a href="jiaoxue.html">[教学资源]</a>
+							</div>							
+						</li>
+						<li class="k3 col-md-6 col-sm-6 col-xs-6">
+							<div class="bg"></div>
+							<div class="mark1">
+								<a href="">[在线考试]</a>
+							</div>								
+						</li>
+						<li class="k4 col-md-6 col-sm-6 col-xs-6">
+							<div class="bg"></div>
+							<div class="mark1">
+								<a href="">[刷题助手]</a>
+							</div>							
+						</li>
+					</ul>
+				</div>
+				<div class="partB-3 col-md-4 col-sm-4 col-xs-12">
+					<div class="img"></div>
+				</div>
+			</div>
+		</div>
+						
+		<!--正文C-->
+		<div class="partC w1">
+			<ul>
+				<li class="c1 col-md-3 col-sm-3 col-xs-6">
+					<a href="">						
+						<div class="img"></div>
+						<div class="c-word">IT赛事</div>
+						<div class="c-mark"></div>						
+					</a>
+				</li>
+				<li class="c2 col-md-3 col-sm-3 col-xs-6">
+					<a href="">		
+						<div class="img"></div>
+						<div class="c-word">算法园地</div>
+						<div class="c-mark"></div>						
+					</a>
+				</li>
+				<li class="c3 col-md-3 col-sm-3 col-xs-6">
+					<a href="">						
+						<div class="img"></div>
+						<div class="c-word">往年考题</div>
+						<div class="c-mark"></div>						
+					</a>
+				</li>
+				<li class="c4 col-md-3 col-sm-3 col-xs-6">
+					<a href="">						
+						<div class="img"></div>
+						<div class="c-word">交流中心</div>
+						<div class="c-mark"></div>						
+					</a>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="footer  col-md-12 col-sm-12 col-xs-3">
+			<div class="foot w1">
+				<br />
+				岭南师范学院 Lingnan Normal University&nbsp;&nbsp;版权所有:1996-- 岭南师范学院&nbsp; 粤ICP备15053357号 
+				<br />
+				校址：中国 广东 湛江赤坎区寸金路29号&nbsp;&nbsp; 邮编：524048&nbsp;&nbsp; 电话：86-759-3183226&nbsp;&nbsp;&nbsp;传真：86-759-3341440
+			</div>
+		</div>
+		<script src="lib/jquery/jquery.min.js"></script>
+	    <script src="lib/bootstrap/js/bootstrap.js"></script>
+	    <script src="js/nav.js"></script>
+		<script src="js/paomadeng.js"></script>	
+		<script src="js/ajax.js"></script>
+	</body>
+</html>
